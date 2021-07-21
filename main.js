@@ -157,7 +157,7 @@ function left() {
     }
 }
 
-function left() {
+function right() {
     if (player_x <= 850) {
         player_x = player_x + block_image_width;
         console.log("block_image_width= " + block_image_width);
